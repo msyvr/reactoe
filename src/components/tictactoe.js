@@ -61,7 +61,7 @@ class Tictactoe extends React.Component {
 
         let status;
         if (winner) {
-            status = 'Winner: ' + winner;
+            status = 'Player ' + winner + ' wins!';
         }
         else if (this.state.stepNumber === 9) {
             status = 'No winner';
