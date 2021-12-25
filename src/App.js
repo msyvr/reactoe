@@ -7,8 +7,8 @@ const App = () => {
   return (
     <div className="App">
       <div className="App-header">
-        <a href = "https://reactjs.org/" target="_blank" ><img src={logo} className="App-logo" alt="logo" /></a>
-        <a href = "https://github.com/msyvr/reactoe" target = "_blank">play tic tac toe</a>
+        <a href = "https://reactjs.org/" rel="noopenner noreferrer" target="_blank"><img src={logo} className="App-logo" alt="logo" /></a>
+        <a href = "https://github.com/msyvr/reactoe" rel="noopenner noreferrer" target = "_blank">play tic tac toe</a>
       </div>
       <div className="App-body">
         <Tictactoe />
