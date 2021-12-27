@@ -4,9 +4,8 @@
 - Refer to the excellent [React documentation](https://reactjs.org/) to get React up and running on your local environment.
 - No additional dependencies :)
 - Fork this repo into a dedicated folder, navigate to that folder, and 'npm start' will open a browser window with the game.
+
 ## Why did I build this?
-This project was inspired by a separate project (formAlly, which I'll post publicly soon) that aimed to use React to create dynamically rendered forms from JSON input, and where some fields were to be rendered conditionally.
+This project was inspired by a separate project (formAlly, which I'll post publicly soon) that uses React to dynamically render forms from JSON data, including fields which are to be rendered conditionally in reponse to another field's input.
 
-I'd just started learning React and it had been a loooong time since I used JavaScript in any meaningful way. Managing state was giving me some trouble, so I followed the excellent [tic-tac-toe tutorial](https://reactjs.org/tutorial/tutorial.html) on the official React site. They're not kidding when they state that mastering all the elements of writing this simple game will solidify React essentials!
-
-I worked through each step from scratch, and now know my way around a React app and can handle state management. It's really fun to hack and get the instantaneous feedback that React's zippy responsiveness enables.
+I'd recently started learning React and it had been a loooong time since I used JavaScript in any meaningful way. I wanted to learn about managing state and how it might be useful in such an implementation, so I followed the excellent [tic-tac-toe tutorial](https://reactjs.org/tutorial/tutorial.html) on the official React site. The claim that mastering all the elements of writing an in-browser game of tic tac toe will solidify React essentials feels accurate. It's a nicely written tutorial - and fun to make a simple game!
